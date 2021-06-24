@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AWSWebApi.Controllers
 {
+    /// <summary>
+    /// Контроллер магазина. 
+    /// </summary>
     [ApiController]
     [Route("Shop")]
     public class MainController : ControllerBase
